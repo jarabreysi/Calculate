@@ -48,5 +48,14 @@ final class CalculateTest extends TestCase{
 		$array=null;
 		$this->assertEquals(  $calculate->arrayAdded($array), 0);
 	}
+
+
+
+	public function Add():void{
+		$calculate=new Calculate();
+		
+		$this->assertEquals(  $calculate->add(7,5),2);
+	}
+
 }
 ?>
